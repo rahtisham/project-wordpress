@@ -1,0 +1,46 @@
+/*
+Theme Name: My Side
+Theme URI: http://example.com
+Author: Your Name
+Author URI: http://example.com
+Description: My custom WordPress theme
+Version: 1.0
+License: GNU General Public License v2
+*/
+
+/* Sidebar styles for My Side theme */
+.myside-sidebar {
+	padding: 20px;
+	background: #f9f9f9;
+	border-left: 1px solid #e5e5e5;
+}
+.myside-sidebar .widget {
+	margin-bottom: 24px;
+}
+.myside-sidebar .widget-title {
+	font-size: 1.05rem;
+	margin: 0 0 12px 0;
+	padding-bottom: 6px;
+	border-bottom: 2px solid #eee;
+}
+.myside-sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.myside-sidebar li {
+	margin: 0 0 8px 0;
+}
+.myside-product-button {
+	display: inline-block;
+	padding: 10px 14px;
+	background: #0073aa;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+}
+.myside-product-button:hover {
+	background: #005f8d;
+}
+.myside-form-message.success { color: #1a7f37; }
+.myside-form-message.error { color: #b00020; }
