@@ -74,7 +74,7 @@ if ('POST' === $_SERVER['REQUEST_METHOD'] && isset($_POST['myside_product_submit
                     </p>
 
                     <p>
-                        <label for="product_price"><?php _e('Product Price', 'myside'); ?></label><br>
+                        <label for="product_price"><?php _e('New Product Price', 'myside'); ?></label><br>
                         <input type="text" id="product_price" name="product_price" placeholder="0.00" value="<?php echo isset($_POST['product_price']) ? esc_attr(wp_unslash($_POST['product_price'])) : ''; ?>" required>
                     </p>
 
