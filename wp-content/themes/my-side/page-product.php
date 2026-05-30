@@ -69,7 +69,7 @@ if ('POST' === $_SERVER['REQUEST_METHOD'] && isset($_POST['myside_product_submit
                     <?php wp_nonce_field('myside_product_action', 'myside_product_nonce'); ?>
 
                     <p>
-                        <label for="product_name"><?php _e('Product Name', 'myside'); ?></label><br>
+                        <label for="product_name"><?php _e('New Product Name', 'myside'); ?></label><br>
                         <input type="text" id="product_name" name="product_name" value="<?php echo isset($_POST['product_name']) ? esc_attr(wp_unslash($_POST['product_name'])) : ''; ?>" required>
                     </p>
 

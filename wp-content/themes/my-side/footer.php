@@ -1,7 +1,7 @@
     </div><!-- #content -->
 
     <footer id="colophon" class="site-footer">
-        <div class="site-info Ahtisham">
+        <div class="site-info Ahtisham-Naeem">
             <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
         </div>
     </footer>
